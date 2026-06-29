@@ -1,4 +1,4 @@
 FROM nginx:latest
 WORKDIR /app
-COPY . /app
+COPY . /usr/share/nginx/html
 EXPOSE 80
